@@ -4,6 +4,7 @@ import Signup from "./components/Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import VerifyOtp from "./components/VerifyOtp";
 import Home from "./components/HomePage/Home";
+import Resto from "./components/RestoPage/Resto";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" element={<Home/>}/>
         </Routes>
       </BrowserRouter>
+      <Resto/>
     </>
   );
 }

@@ -39,7 +39,6 @@ const Header = () => {
             </div>
             <div className=" text-[16px] border border-white text-white py-[12px] px-[16px] rounded-[10px] flex items-center gap-1">
               <p>Get the App</p>
-              <img src="" alt="" />
             </div>
             <button
               onClick={() => {
@@ -74,7 +73,6 @@ const Header = () => {
               placeholder="Enter your delivery location"
               className="h-[30px] w-[200px] font-medium border-none ml-[10px] outline-none text-sm"
             />
-            <img src="" alt="" />
           </div>
           <div
             style={{ backgroundColor: "#ffffff" }}

@@ -13,13 +13,11 @@ const HotelImage = () => {
             <p>Pizza . Fast Food</p>
             <p className="mt-0.5">Area Colony, Bhopal</p>
             <button>
-              <img src="" alt="" />
               <p className="bg-[#f0f0f5] mt-1.5 px-2 rounded-[20px]">Table booking</p>
             </button>
           </div>
           <div>
             <p>
-              <img src="" alt="" /> $500for two
             </p>
             <p>6.8 km</p>
           </div>

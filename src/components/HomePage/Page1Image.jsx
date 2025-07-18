@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page1Image = ({ src }) => {
   return (
-    <div>
+    <div className='min-w-45'>
       <img
         src={src}
         alt="Dishesh"
