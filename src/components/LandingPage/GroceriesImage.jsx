@@ -11,4 +11,4 @@ const GroceriesImage = ({src, name}) => {
     );
 }
 
-export default GroceriesImage
+export default GroceriesImage 

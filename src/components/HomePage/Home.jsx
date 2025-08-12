@@ -7,12 +7,15 @@ import { FaOsi } from "react-icons/fa";
 import { FaCartFlatbedSuitcase } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 import Page1 from './Page1';
+import { Outlet } from 'react-router-dom';
+import Page2 from './Page2';
+import Page3 from './Page3';
 
 
 const Home = () => {
   return (
     <div>
-      <navbar className="flex flex-col md:flex-row w-full max-w-[1100px] border border-black mx-auto items-center md:items-start justify-between mt-[20px] px-4">
+      <navbar className="flex flex-col md:flex-row w-full max-w-[1150px]  mx-auto items-center md:items-start justify-between mt-[20px] px-4">
         <div className="flex w-full md:w-[150px] items-center justify-center md:justify-between mb-4 md:mb-0">
           <img
             src="https://tse4.mm.bing.net/th/id/OIP.lil-EJjoMpprM6UkkOQhwgHaHa?pid=Api&P=0&h=220"
@@ -52,7 +55,10 @@ const Home = () => {
           </div>
         </div>
       </navbar>
-      <Page1/>
+      <Page1 />
+      <Page2 />
+      <Page3/>
+      <Outlet/>
     </div>
   );
 }
