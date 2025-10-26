@@ -15,7 +15,7 @@ import Page3 from './Page3';
 const Home = () => {
   return (
     <div>
-      <navbar className="flex flex-col md:flex-row w-full max-w-[1150px]  mx-auto items-center md:items-start justify-between mt-[20px] px-4">
+      <nav className="flex flex-col md:flex-row w-full max-w-[1150px]  mx-auto items-center md:items-start justify-between mt-[20px] px-4">
         <div className="flex w-full md:w-[150px] items-center justify-center md:justify-between mb-4 md:mb-0">
           <img
             src="https://tse4.mm.bing.net/th/id/OIP.lil-EJjoMpprM6UkkOQhwgHaHa?pid=Api&P=0&h=220"
@@ -54,7 +54,7 @@ const Home = () => {
             <p className="p-2">Cart</p>
           </div>
         </div>
-      </navbar>
+      </nav>
       <Page1 />
       <Page2 />
       <Page3/>

@@ -6,7 +6,7 @@ import VerifyOtp from "./components/VerifyOtp";
 import Home from "./components/HomePage/Home";
 import Resto from "./components/Create/Resto";
 import Dish from "./components/Create/Dish";
-import UpDish from "./components/Create/upDish";
+import UpDish from "./components/Create/UpDish";
 import Page2 from "./components/HomePage/Page2";
 import Page3 from "./components/HomePage/Page3";
 import Burger from "./components/HomePage/Burger";
@@ -23,12 +23,12 @@ function App() {
 
           <Route path="/home" element={<Home />}>
             {/* <Route index element={<HomeLayout/>} /> */}
-            <Route path="Burger" element={<Burger />} />
+            <Route path="burger" element={<Burger />} />
           </Route>
           
-          <Route path="/UpDish" element={<UpDish />} />
-          <Route path="/Dish" element={<Dish />} />
-          <Route path="/Resto" element={<Resto />} />
+          <Route path="/upDish" element={<UpDish />} />
+          <Route path="/dish" element={<Dish />} />
+          <Route path="/resto" element={<Resto />} />
           <Route path="/createGrocery" element={< CreateGrocery/>} />
         </Routes>
       </BrowserRouter>
