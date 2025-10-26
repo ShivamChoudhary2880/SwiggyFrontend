@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
 
 const CreateGrocery = () => {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    image: [],
+  });
+
+
   return (
     <div className="bg-gray-100 min-h-screen p-5">
       <div className="max-w-4xl shadow-xl bg-white border border-green-500 rounded-xl mt-10 mx-auto p-10">
@@ -15,13 +23,15 @@ const CreateGrocery = () => {
           </label>
           <input
             type="text"
+            name='name'
             placeholder="Enter grocery name"
             className="w-full border border-gray-300 pl-3 mt-3 py-2 rounded-lg"
           />
         </div>
         <div className='mb-6'>
         <label>Upload Grocery image</label>
-        <input type="file"
+          <input type="file"
+            image='image'
             accept='image/*'
             className='mt-3 w-full bg-green-50 border border-dashed border-green-300 rounded-lg px-4 py-2 text-gray-700
             file:mr-4 file:px-4 file:py-2 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-green-100
